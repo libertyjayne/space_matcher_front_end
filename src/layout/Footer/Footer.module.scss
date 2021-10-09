@@ -1,0 +1,9 @@
+@import '../../config/styles/variables.scss';
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid $grey;
+  height: 80px;
+}

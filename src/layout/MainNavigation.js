@@ -12,6 +12,9 @@ function MainNavigation() {
             <Link to="/">All Spaces</Link>
           </li>
           <li>
+            <Link to="/login">Login</Link>
+          </li>
+          <li>
             <Link to="/new-Space">Add New Space</Link>
           </li>
           <li>

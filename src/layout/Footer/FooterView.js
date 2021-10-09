@@ -1,29 +1,12 @@
-import React from 'react'
-import AppBar from '@material-ui/core/AppBar'
+import classes from "./Footer.module.scss";
 
-const Footer = () => {
+function FooterView() {
   return (
-    <Footer>
-      <AppBar
-        position="relative"
-        style={{
-          //position: 'absolute',
-          width: '100%',
-          padding: 18,
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          height: 50,
-          bottom: 0,
-          left: 0,
-          right: 0,
-        }}
-        id="footer-text"
-      >
-        {`© ${new Date().getFullYear()} Copyright: yourcompany.com! All Rights Reserved`}
-      </AppBar>
-    </Footer>
-  )
+    <footer className={classes.footer}>
+      <div>2021</div>
+      <div>Copyright: yourcompany.com! All Rights Reserved</div>
+    </footer>
+  );
 }
 
-export default Footer
+export default FooterView;
