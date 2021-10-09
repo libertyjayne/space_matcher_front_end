@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import classes from "./NewSpaceForm.module.css";
+import classes from "./NewSpaceForm.module.scss";
 import Card from "../../ui-components/Card";
 
 function NewSpaceForm(props) {

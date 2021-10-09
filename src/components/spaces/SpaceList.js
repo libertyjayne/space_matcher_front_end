@@ -1,5 +1,5 @@
 import SpaceItem from "./SpaceItem";
-import classes from "./SpaceList.module.css";
+import classes from "./SpaceList.module.scss";
 
 function SpaceList(props) {
   return (

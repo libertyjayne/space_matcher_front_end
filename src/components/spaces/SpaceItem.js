@@ -1,5 +1,5 @@
 import Card from "../../ui-components/Card";
-import classes from "./SpaceItem.module.css";
+import classes from "./SpaceItem.module.scss";
 
 function SpaceItem(props) {
   return (
