@@ -1,13 +1,11 @@
-import MainNavigation from '../MainNavigation';
-import UserNavView from '../UserNav/UserNavView';
+import NavView from '../Nav/NavView';
 import './Layout.module.scss';
 import FooterView from '../Footer/FooterView';
 
 function Layout(props) {
   return (
     <div>
-      <MainNavigation />
-      <UserNavView />
+      <NavView />
       <main>{props.children}</main>
       <FooterView />
     </div>

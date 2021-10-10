@@ -4,12 +4,10 @@ import classes from "./MainNavigation.module.scss";
 
 function MainNavigation() {
   return (
-    <header className={classes.header}>
-      <div className={classes.logo}>React Spaces</div>
       <nav>
         <ul>
           <li>
-            <Link to="/">All Spaces</Link>
+            <Link to="/all">All Spaces</Link>
           </li>
           <li>
             <Link to="/login">Login</Link>
@@ -22,7 +20,6 @@ function MainNavigation() {
           </li>
         </ul>
       </nav>
-    </header>
   );
 }
 

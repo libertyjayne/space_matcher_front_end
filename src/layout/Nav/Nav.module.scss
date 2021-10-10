@@ -1,0 +1,19 @@
+@import '../../config/styles/variables.scss';
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: $gutter;
+  padding-left: $gutter;
+}
+
+.buttons {
+  Button {
+    width: 100px;
+  }
+
+
+  Button:not(:first-child) {
+    margin-left: 3em;
+  }
+}
