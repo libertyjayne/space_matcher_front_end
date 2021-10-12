@@ -1,0 +1,33 @@
+@import '../../config/styles/variables.scss';
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  background-image: url(../../img/color_blur1.png);
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+.hero {
+  display: flex;
+}
+.hero div {
+  width: 50%;
+}
+.hero div:first-child {
+  display: flex;
+  flex-direction: column;
+
+}
+.hero h1 {
+  padding-left: $gutter;
+}
+@media (min-width: 960px) {
+
+}
+img {
+  width: 100%;
+  border-radius: 0px 0px 0px 65px;
+}
+section:not(.hero) {
+  height: 500px;
+}

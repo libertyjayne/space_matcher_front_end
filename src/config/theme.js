@@ -1,4 +1,5 @@
 import { createTheme } from '@mui/material/styles';
+import './styles/variables.scss';
 
 const theme = createTheme({
   palette: {
@@ -6,26 +7,26 @@ const theme = createTheme({
       black: '#33333',
     },
     primary: {
-      main: '#673AB7',
+      main: '#82BBFF',
     },
     secondary: {
-      main: '#2196f3',
+      main: '#82F7FF',
     },
     success: {
-      main: '#00E676',
+      main: '#10B981',
     },
     orange: {
       main: '#FFAB91',
     },
     error: {
-      main: '#F44336',
+      main: '#FF9882',
     },
     warning: {
-      main: '#ffe57f',
+      main: '#FFFA82f',
     },
   },
-  shape: {borderRadius: '40px'},
-  typography: {fontFamily: "Source Sans Pro"},
+  shape: { borderRadius: '40px' },
+  typography: { fontFamily: 'Source Sans Pro' },
 });
 
 export default theme

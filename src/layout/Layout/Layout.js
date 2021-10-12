@@ -1,6 +1,6 @@
-import NavView from '../Nav/NavView';
 import './Layout.module.scss';
 import FooterView from '../Footer/FooterView';
+import NavView from '../../layout/Nav/NavView';
 
 function Layout(props) {
   return (

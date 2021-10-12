@@ -5,6 +5,8 @@ nav {
   justify-content: space-between;
   padding-right: $gutter;
   padding-left: $gutter;
+  position: fixed;
+  width: 100%;
 }
 
 .buttons {
@@ -12,8 +14,19 @@ nav {
     width: 100px;
   }
 
-
   Button:not(:first-child) {
-    margin-left: 3em;
+    margin-left: 3rem;
   }
 }
+
+// .nav {
+//   background-color: transparent !important;
+// }
+
+// .menuButton {
+//     margin-right: theme.spacing(2),
+// }
+
+// .title {
+//   flex-grow: 1;
+// }

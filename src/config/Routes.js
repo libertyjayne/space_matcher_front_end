@@ -5,13 +5,13 @@ import LoginView from '../pages/Login/LoginView';
 import AllSpacesPage from "../pages/AllSpaces";
 import NewSpacePage from "../pages/NewSpace";
 import FavoritesPage from "../pages/Favorites";
-import LandingPage from '../pages/LandingPage/LandingPageView';
+import LandingView from '../pages/Landing/LandingView';
 
 function Routes() {
   return (
     <Switch>
       <Route path='/' exact>
-        <LandingPage />
+        <LandingView />
       </Route>
       <Route path='/all' exact>
         <AllSpacesPage />
